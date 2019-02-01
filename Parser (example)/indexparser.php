@@ -12,10 +12,10 @@ $time_start = microtime_float();
 
 
 $conf = array(
-    'host' => 'localhost', 
-    'user' => 'alfa-ltd-ru', 
-    'password' => 'h_g98M0wO1j4', 
-    'db' => 'alfa-ltd-ru_rusrostok'
+    'host' => 'сервер', 
+    'user' => 'пользователь', 
+    'password' => 'пароль', 
+    'db' => 'база данных'
 );
 
 $DBH = connectPDO($conf);
