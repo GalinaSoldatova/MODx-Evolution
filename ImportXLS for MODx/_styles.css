@@ -1,0 +1,1045 @@
+@font-face {
+    font-family:"OpenSans";
+    font-style:normal;
+    font-weight:normal
+}
+@font-face {
+    font-family:"OpenSans";
+    font-style:normal;
+    font-weight:100
+}
+
+
+.modul_scorn_all {
+	padding: 10px 15px 10px 15px;
+	=background: #f4f4f4 url( '_images/fon_main_1.png' ) left top repeat;
+	color: #333;
+	font: normal 14px arial, verdana, tahoma, helvetica, sans-serif;
+}
+.modul_scorn_all h1 {
+	margin: 0px 0px 20px 0px;
+	font-size: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+
+.modul_scorn_all form {
+	margin: 0px;
+}
+
+
+*{
+box-sizing: border-box;
+font-family: "OpenSans", Arial;
+}
+
+.clr {
+	clear: both;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+#postav{
+    padding: 11px;
+    width: 292px;
+}
+
+.deleteThis {
+position: absolute;
+    color: #ff3939;
+    top: 0;
+    font-size: 20px;
+    line-height: 13px !important;
+    height: auto !important;
+    width: auto !important;
+    margin: 0px;
+    background: #333;
+    padding: 1px 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.pc_item {
+
+}
+	.pc_item .pci_type {
+		float: left;
+		width: 200px;
+		padding: 5px 10px;
+	}
+	.pc_item .pci_left {
+		float: left;
+		width: 200px;
+		padding: 5px 10px;
+	}
+	.pc_item .pci_right {
+		float: left;
+		width: 440px;
+		padding: 5px 10px;
+	}
+	.pc_item .pci_ind {
+		float: left;
+		width: 140px;
+		padding: 5px 10px;
+	}
+	.pc_item .pci_delete {
+		float: left;
+		width: 140px;
+		padding: 5px 10px;
+	}
+	.pci_type select, .pci_left input[type="text"], .pci_right input[type="text"], .pci_ind input[type="text"] {
+		width: 95%;
+		padding: 5px;
+	}
+	.pci_left input {
+		text-align: right;
+		font-weight: bold;
+	}
+	.pc_item .pci_ind input {
+		width: 45px;
+		text-align: center;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form {    
+
+    }
+
+
+
+	
+	.progress-bar {
+		height: 8px;
+		width: 100%;
+		background: #464db3;
+		border-radius: 0 0 3px 3px;
+		margin-bottom: 30px;
+		overflow: hidden;
+	}
+	
+	
+	.progress-bar-mini {
+    height: 8px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+	}
+    
+	.fullImageProgress {
+		height: 12px;
+		overflow: hidden;
+    bottom: 0;
+		}
+	
+  .fpwrap {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: rgba(68, 125, 13, 0.86);
+  }
+  
+	.progress-bar span {
+			display: inline-block;
+			height: 100%;
+			border-radius: 0px;
+			transition: width .2s ease-in-out;
+	}
+	
+	.progress-bar-mini span {
+			display: inline-block;
+			height: 100%;
+			border-radius: 0px;
+			transition: width .2s ease-in-out;
+	}
+  
+  .fullImageProgress span {
+      display: inline-block;
+      height: 100%;
+      border-radius: 0px;
+      transition: width .2s ease-in-out;
+  }
+	
+	
+	
+	
+	.blue span {
+	    background-color: #34c2e3;
+	}
+	
+	.orange span {
+    background-color: #5646b3;
+      border-right: 1px solid #c8bafd;
+      box-shadow: inset -24px 0px 20px -6px #989ffd;
+	}
+	
+	
+
+	
+	.stripes span {
+	    background-size: 30px 30px;
+	    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+	                        transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+	                        transparent 75%, transparent);
+	
+	    animation: animate-stripes 3s linear infinite;
+	}
+	
+	@keyframes animate-stripes {
+	    0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+	}
+	
+	
+	
+	.shine span {
+	    position: relative;
+	}
+	
+	.shine span::after {
+	    content: '';
+	    opacity: 0;
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    background: #5590ff;
+	    border-radius: 0px;
+	    animation: animate-shine 3s cubic-bezier(0.14, 0.77, 0.82, 0.26) infinite;
+	}
+	
+	@keyframes animate-shine {
+	    0% {opacity: 0; width: 0;}
+	    50% {opacity: .9;}
+	    100% {opacity: 0; width: 95%;}
+	}
+
+
+.leftBL > form {
+  width: 50%;
+}
+
+
+
+	#uploaded_file{
+		display: none;
+	}
+
+	.file_upload{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: linear-gradient(to bottom, #616bf1 0%,#565fda 100%);
+  color: #d1c5ff;
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 40px;
+  border-radius: 3px 3px 0 0;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "OpenSans", Arial;
+  font-weight: 100;
+	}
+	.file_upload .button, .file_upload > mark{
+	    display: block;
+	    cursor: pointer              /* example */
+	}
+	.file_upload .button{
+	    float: right;
+	    box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    width: 8em;                  /* example */
+	    height: 100%;
+	    text-align: center           /* example */
+			border-left: 1px solid #335365;
+			
+	}
+	.file_upload > mark{
+	    background: transparent;     /* example */
+	    padding-left: 1em;            /* example */
+			width: 70%;
+			color: #fff;
+	}
+
+
+.prepaireTable{ 
+    overflow: scroll;
+    height: 400px;
+    font-family: "OpenSans", Arial;
+    margin: 20px;
+    border-top: 2px solid #62b614;
+    position: relative;
+      
+}
+
+.prepaireTable table{
+		border-collapse: collapse;
+    color: #111;
+    font-size: 12px;
+    position: relative;
+  
+
+}
+
+
+.prepaireTable table tr{
+
+}
+
+.prepaireTable table tr:last-child{
+
+}
+
+.prepaireTable table tr td{
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	padding: 4px 10px;
+      min-width: 30px;
+      background-color: rgb(255, 255, 255);
+    max-width: 190px;
+    overflow: hidden;
+}
+
+
+.pxselectlistdefaulttv {
+    width: 100%;
+    min-width: 130px;
+}
+.prepaireTable table tr:first-child td{
+		border-top: 1px solid #ddd;
+    padding: 0;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.prepaireTable table tr td:last-child{
+	border-right: 1px solid #ddd;
+}
+
+
+.tableColSetter {
+	position: relative;
+	height: 50px;
+	padding: 0 20px;
+	border:1px solid #ddd;
+}
+
+.tableColSetter .pointer{
+	position: absolute;
+	height: 50px;
+	width: 0;
+	border-left: 1px solid
+}
+
+.tableColSetter .leftPointBreak ,.tableColSetter .rightPointBreak{
+	position: absolute;
+
+}
+
+
+.tabs > div{
+    float: left;
+    background: #e8e8e8;
+    margin-right: 14px;
+    color: #949494;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-top: 3px solid #b8e1ff;
+    cursor: pointer;
+}
+
+.tabs > div:hover  , .tabs > div.active{
+    background: #fff;
+    color: #000;
+    border-top: 3px solid #5bbaff;
+}
+
+
+
+.tvLists , .filterLists{
+	font-family: "OpenSans", Arial;
+  border: 1px dashed #ddd;
+  height: 139px; 
+  display: none;
+overflow-y: scroll;
+}
+
+.tvLists.active , .filterLists.active{
+  display: block;
+}
+
+
+.oneTv , .oneFlt {
+    text-align: center;
+    float: left;
+    color: #fff;
+    padding: 1px 7px;
+    margin: 9px 6px;
+    font-weight: 100;
+    font-size: 11px;
+    border-radius: 2px;
+    text-shadow: 0 1px 2px rgba(10,10,10,.2);
+    text-transform: uppercase;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.oneTv span , .oneFlt  span{
+		display: block;
+    text-transform: capitalize;
+    margin: 7px 0px;
+}
+
+
+.statehighlight {
+  background: #fff;
+  box-shadow: inset 0 0 0 3px #05a;
+}
+
+.treeElem{
+/*margin-left: 20px;*/
+}
+
+
+.dropableCtrl span:not(.addToPgt){
+height: 56px;
+    display: block;
+    width: 100%;
+    line-height: 71px;
+}
+
+
+
+#dropZone {
+height: 100%;
+border: 1px dashed #ddd;
+position: relative;
+    overflow-y: scroll;
+}
+
+#dropZone.hover {
+    background: #eee;
+    border-color: #aaa;
+}
+
+#dropZone.error {
+    background: #faa;
+    border-color: #f00;
+}
+
+#dropZone.drop {
+    background: #fbfbfb;
+    border-color: #eee;
+}
+
+
+
+img.thumb {
+	width: 100%;
+}
+
+.imgprogress {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  float: left;
+  overflow: hidden;
+  line-height: 100px;
+  margin: 10px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(10,10,10,0.14);
+  background-color: #fff;
+}
+
+.imgprogress.ui-draggable-dragging {
+  opacity: :.2;
+  width: 40px; 
+  height: 40px; 
+  /*transition:  200ms;*/
+/*  transition: height,width 200ms;*/
+}
+
+.dropFirImages {
+  position: relative;
+  padding: 0 !important;
+  max-width: 80px;
+}
+
+.dropFirImages img {
+  width: 100%;
+}
+
+.processImport {
+  float: right;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 43%;
+    background: linear-gradient(to bottom, #616bf1 0%,#565fda 100%);
+    color: #e8ffc5;
+    line-height: 40px;
+    border-radius: 3px;
+    height: 48px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "OpenSans", Arial;
+    font-weight: 100;
+    text-align: center;
+    border-bottom: 8px solid #464db3;
+    cursor: pointer;
+}
+
+
+.leftBL {
+  width: 50%;
+  float: left;
+    padding: 10px 20px;
+}
+
+.rightBL {
+  width: 50%;
+  float: right;
+  padding: 20px; 
+  height: 248px;
+  position: relative;
+  display: none;
+}
+ 
+  
+ 
+.textInDrop {
+    height: 194px;
+    line-height: 194px;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+
+.treeList {
+    font-size: 14px;
+    display: none;
+}
+
+.modalNotice {
+    display: none;
+    position: fixed;
+  width: 600px;
+  height: 300px;
+  background: #5c8626;
+  border-radius: 2px;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -250px;
+  box-shadow: 0px 4px 20px 0px rgba(10, 10, 10, 0.56);
+}
+
+
+
+.titNotice {
+font-size: 34px;
+text-align: center;
+margin: 39px 0;
+font-weight: 100;
+color: #fff;
+}
+
+.oneSring {
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+    height: 80px;
+}
+
+.oneSring span {
+font-weight: 500;
+}
+
+.treeList > .treeElem{
+    padding: 7px 20px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    font-weight: 100;
+    transition: 100ms;
+}
+
+.treeList > .treeElem .treeElem{
+    padding: 0px;
+    padding-left: 33px;
+    border-top: 1px dashed #eee;
+    font-size: 12px;
+
+}
+
+.treeList > .treeElem .treeElem .pickFolder{
+    transition: 180ms;
+}
+
+.treeList > .treeElem .treeElem .pickFolder:hover{
+  background-color: #7aa71c;
+}
+
+/*
+.treeList > .treeElem .treeElem:nth-child(2n){
+  margin-top: 10px;
+}
+*/
+.treeList > .treeElem .treeElem:last-child{
+  border-bottom: 1px dashed #eee;
+}
+
+.treeList > .treeElem .treeElem .pickFolder{
+    margin-bottom: 2px;
+    display: block;
+    padding: 2px;
+    border-radius: 3px;
+	
+}
+
+
+.treeList > .treeElem  .pickFolder{
+    margin-bottom: 6px;
+    display: block;
+    padding: 3px;
+    border-radius: 3px;
+	
+}
+
+
+
+.treeList > .treeElem:first-child{
+    margin-top: 50px
+}
+
+
+.treeList > .treeElem .pickFolder:hover{
+    background-color: #8ab72c;
+    color: #fff;
+}
+
+
+.idtvimg {
+  width: 40px;
+}
+
+
+#fixedROW td{
+  background: #fff;
+  position: relative;
+}
+
+
+.addToPgt {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 18px;
+    line-height: 17px;
+    font-size: 10px;
+    background: #444;
+    width: 36px;
+    cursor: pointer;
+}
+
+
+.prepaireTable table tr:first-child td:first-child {
+  background-color: #f94d4d !important;
+}
+ 
+
+.addToPgt.active {
+  background-color: #61b516;
+}
+
+
+
+.prepaireTable table tr td.ignored {
+    background-color: rgba(226, 0, 0, 0.43)!important;
+    border-left: 1px solid rgb(235, 138, 138)!important;
+    border-bottom: 1px solid rgb(241, 107, 107)!important;
+}
+
+
+
+#fixedROW2 td{
+  background: #fff;
+}
+
+
+.dropFirImages{
+    width: 44px;
+}
+
+
+.sheetList {
+margin: 0 20px;
+font-size: 12px;
+line-height: 27px;
+}
+
+.sheetList span {
+  margin-right: 3px;
+  border: 1px solid #ddd;
+  padding: 2px 13px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.sheetList span:hover {
+background: #95c329;
+    color: #fff;
+    border: 1px solid #95c329;
+}
+
+.sheetList span.crntSheet{
+  background: #5faf15;
+  color: #fff;
+  border: 1px solid #5faf15;
+}
+
+
+
+.controlAddsButton {
+height: 148px;
+padding: 0 20px;
+float: left;
+    max-width: 670px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.controlAddsButton> * {
+    flex-basis: 30%;
+    margin: 4px;
+}
+
+
+
+.controlAddsButton .dopBtn {
+text-align: right;
+    float: left;
+    color: #fff;
+    padding: 4px 7px;
+    font-weight: 100;
+    font-size: 12px;
+    border-radius: 2px;
+    text-shadow: 0 1px 2px rgba(10, 10, 10, 0.11);
+    background: #61b516;
+    /*margin: 0 11px 0 0;*/
+    cursor: pointer;
+    transition: 400ms;
+    position: relative;
+    width: 176px;
+}
+
+
+.controlAddsButton .dopBtn:last-child {
+
+margin-right: 0;  
+
+}
+
+.controlAddsButton .dopBtn:hover {
+background: #72bf1f;
+}
+
+
+
+.controlAddsButton .dopBtn .miniAddsTx{
+display: block;
+font-size: 11px;
+background: #559e13;
+padding: 1px 5px;
+border-radius: 3px;
+margin-top: 5px;
+
+}
+
+
+
+.controlAddsButton .dopBtn.delNotUpdated {
+    background: #ccc;
+    width: 447px;
+    margin-top: 20px;
+    height: 42px;
+    text-align: center; 
+    float: left;
+}
+
+.controlAddsButton .dopBtn.delNotUpdated.active {
+    background: #e67511;
+}
+
+.controlAddsButton .dopBtn.delNotUpdated.active:hover {
+    background: #ea3e3e;
+}
+
+
+.controlAddsButton .dopBtn.delNotUpdated span {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+
+.infoArea {
+    display: none;
+    width: 294px;
+    margin-top: 20px;
+    height: 42px;
+    line-height: 41px;
+    float: left;
+    background: rgb(230, 117, 17);
+    border-radius: 2px;
+    padding: 0px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.infoArea.finished {
+  background: rgb(97, 181, 22);
+}
+
+
+.infoArea img {
+    vertical-align: middle;
+}
+
+.infoArea span {
+  margin-left: 20px;
+}
+
+
+
+
+
+.controlAddsButton .selectAcolCat1st {
+    width: 189px;
+}
+
+.selectAcat {
+  width: 145px;
+}
+
+
+
+
+td:hover {
+  /*background: rgba(217, 245, 192, 0.41);*/
+  /*box-shadow: inset 2px 0px 0 0px #61b516, inset -2px 0px 0 0px #61b516;*/
+}
+
+
+
+
+.darkBG{
+  position: fixed;
+  background-color: rgba(32, 35, 32, 0.93);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  display: none;
+
+
+}
+
+
+.darkBG .treeList{
+    position: fixed;
+    width: 700px;
+    height: 600px;
+    background: #fff;
+    border-radius: 2px;
+    left: 50%;
+    top: 50%;
+    margin-left: -350px;
+    margin-top: -350px;
+    box-shadow: 0px 4px 20px 0px rgba(10, 10, 10, 0.56);
+    overflow-y: scroll;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+input.checkbox_px{
+    margin: 0;
+}
+
+
+
+.checkbox_px{
+  z-index:5;
+}
+
+
+.checkbox_px:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+
+
+.checkbox_px:not(checked) + label:before {
+content: '';
+position: absolute;
+top: 4px;
+left: 3px;
+width: 34px;
+height: 17px;
+border-radius: 11px;
+background: #529812;
+box-shadow: inset 0 2px 3px rgba(22, 107, 31, 0.49);
+}
+
+
+.checkbox_px:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 14px;
+  height: 13px;
+  border-radius: 12px;
+  background: #ddf9cc;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: all .2s;
+    
+}
+
+.checkbox_px:checked + label:before {
+	background: #ff7f00;
+}
+
+
+
+.checkbox_px:checked + label:after {
+left: 21px;
+background: #f9eecc;
+}
+
+
+.checkbox_px:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
+
+
+
+.heightfix{
+
+  max-height: 100px;
+overflow: hidden;
+}
+
+
+
+.redCode{
+  background: #b31414 !important
+}
+
+.redCode .miniAddsTx{
+  background: #8c0a0a !important
+}
+
+.redCode label:before{
+  background: #a20a0a !important
+}
+
+.disabled{
+    background: #abafb3 !important;
+    border-bottom-color: #888;
+}
+
+
+
+
+
+
+
+
+.buttonsAcc {
+    width: 463px;
+    margin: 20px auto;
+}
+
+
+.buttonsAcc .accDelete , .buttonsAcc .accCancel{
+    float: left;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 10px 27px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.buttonsAcc .accCancel {
+  float: right;
+}
+
+.dooRedo {
+     float: right;
+    background: #464db3;
+    padding: 0px 20px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    height: 46px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+.selVendorList {
+    margin-top: 4px;
+    padding: 8px 16px;
+} 
