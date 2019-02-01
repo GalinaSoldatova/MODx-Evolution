@@ -19,11 +19,11 @@ $conf = array (
 	'vendor'      		=> 20,
 	'pricetype'      	=> 'b10d49a6-581a-11e7-b217-2c4d54564134', //задать 
 
-	'host' 		=> 'u359859.mysql.masterhost.ru', 
-    'user' 		=> 'u359859_lotus', 
-    'password' 	=> 'FREpI79O-d.', 
-    'db' 		=> 'u359859_lotus',
-    'prefix' 	=> 'lotus_',
+	'host' 		=> 'сервер', 
+	'user' 		=> 'пользователь', 
+	'password' 	=> 'пароль', 
+	'db' 		=> 'имя базы',
+	'prefix' 	=> 'префикс таблиц',
 
 );
 
