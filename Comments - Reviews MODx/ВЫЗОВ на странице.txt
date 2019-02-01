@@ -1,0 +1,5 @@
+<div class="clr"></div>
+{{Comments}}
+<div class="clr"></div>
+[!Comments? &act=`printComment` &tpl=`tplComment`!]
+<div class="clr"></div>

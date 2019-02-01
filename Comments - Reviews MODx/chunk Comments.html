@@ -1,0 +1,24 @@
+<button class="addComment">Добавить отзыв</button>
+<form method="POST" id="form_comment" action="javascript:void(null);" onsubmit="send()" style="display:none;">
+	<div class="stars make">
+		<div class="star" data-num="1"></div>
+		<div class="star" data-num="2"></div>
+		<div class="star" data-num="3"></div>
+		<div class="star" data-num="4"></div>
+		<div class="star" data-num="5"></div>
+		<input class="numstar" type="hidden" name="numstar" value="" />
+	</div>
+	<div class="inpBl">
+		<input  id="name_comment" type="text" name="name"  value="" required="">
+		<label for="name_comment">Ваше имя</label>
+	</div>
+	<div class="inpBl">		
+		<textarea id="message_comment" name="message"  required=""></textarea>
+		<label for="message_comment">Комментарий</label>
+	</div>
+	<input class="pageid" type="hidden" name="pageid" value="[*id*]" />
+	<button class="submitBtn clButt">Отправить отзыв</button>
+</form>
+<div id="results"></div>
+
+

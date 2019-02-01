@@ -1,0 +1,106 @@
+.module_box {
+    font-family: Arial;
+}
+
+.module_box button {
+    padding: 10px 20px;
+}
+
+
+.clr {
+    clear: both;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.success {
+   padding: 10px 20px;
+    background-color: darkgreen;
+    color: white;
+    float: right;
+        margin: 0 35px 0 0;
+}
+
+.comments_table {
+    border: 1px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.comments_table tr {}
+
+.comments_table tr td {
+    border: 1px solid #ddd;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    font-size: 12px;
+    padding: 10px 6px;
+}
+
+.comments_table tr td a {
+    font-size: 12px;
+}
+
+.comments_table .tit td {
+    font-weight: bold;
+    background: rgba( 0, 0, 0, 0.1);
+    border-left: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    text-align: center;
+    width: auto;
+}
+
+.comments_table .item td {
+    background: #fee;
+}
+
+.comments_table .active td {
+    background: #efe;
+}
+
+
+.comments_table .tit .name {}
+
+.comments_table .tit .star {
+        width: 65px;
+}
+
+.comments_table .tit .comment {}
+
+.comments_table .tit .page {
+        width: 80px;
+}
+ 
+.comments_table .tit .status {}
+
+.comments_table .tit .date {
+    width: 93px;
+}
+
+
+.comments_table .item .name {}
+
+.comments_table .item .star {
+     text-align: center;
+}
+
+.comments_table .item .comment {}
+
+.comments_table .item .page {
+      text-align: center;
+}
+
+.comments_table .item .status {
+    cursor: pointer;
+    text-align: center;
+}
+
+.comments_table .item .status span {
+    text-decoration: underline;
+}
+
+
+.comments_table .item .date {
+    color: #999;
+    text-align: center;
+}
